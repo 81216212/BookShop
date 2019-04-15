@@ -1,0 +1,142 @@
+a {text-decoration: none; color: white;}
+a:hover {color: lightgray; text-decoration: none;}
+
+body{
+	font-family: 'Roboto', sans-serif;
+    background: url("/cmj/images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	width: 252px;
+	height: 330px;
+	margin-left: -126px;
+	margin-top: -165px;
+}
+
+h3{
+	position: absolute;
+	margin-left: 104px;
+	width: 474px;
+}
+
+.tou1{
+	display: block;
+	width: 30px;
+	height: 29px;
+	background: url(/cmj/images/8bcLQqF.png) 2px 6px no-repeat;
+	margin-top: -1px;
+	filter: sepia(80%);
+}
+
+.tou2{
+	display: block;
+	width: 30px;
+	height: 29px;
+	background: url(/cmj/images/8bcLQqF.png) 2px -57px no-repeat;
+	margin-top: -1px;
+	filter: sepia(80%);
+}
+
+input:focus{
+	outline:none;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+input{
+	position: relative;
+	margin-top: -27px;
+	margin-left: 29px;
+	height: 31px;
+	width: 219px;
+	border-bottom-right-radius:20px;
+	border-top-right-radius:20px;
+	background-color:transparent;
+	border-style:none;
+}
+.inputtext{
+	margin-top: 50px;
+	width: 250px;
+	height: 34px;
+	border-bottom-left-radius:20px;
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-right-radius:20px;
+	background-color:rgba(255, 255, 255, 0.4);
+}
+
+.input2{
+	margin-top: 50px;
+	width: 113px;
+	height: 34px;
+	border-bottom-left-radius:20px;
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-right-radius:20px;
+	background-color:rgba(255, 255, 255, 0.4);
+}
+
+#verifyCode{
+	position: relative;
+	margin-top: -27px;
+	margin-left: 29px;
+	height: 31px;
+	width: 84px;
+	border-bottom-right-radius:20px;
+	border-top-right-radius:20px;
+	background-color:transparent
+}
+
+#vCode{
+	width: 70px;
+	height: 30px;
+	position: relative;
+	margin-left: 120px;
+    margin-top: -31px;
+}
+
+.hyz{
+	float:right;
+    margin-top: -25px;
+    font-size: 15px;
+}
+
+.error{
+	position: absolute;
+	width: 230px;
+	font-size: 18px;
+	margin-left: 25px;
+}
+
+
+.link {
+    font-size: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+label.error {
+	color: #cc3300;
+	font-weight: 900;
+}
+
+#submit{
+	margin-left: 73px;
+	margin-top: 40px;
+	width: 100px;
+	height: 27px;
+	border-bottom-left-radius:20px;
+	border-top-left-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-right-radius:20px;
+}
+
+#msg{
+	margin-top: -25px;
+}

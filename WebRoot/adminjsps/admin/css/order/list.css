@@ -1,0 +1,45 @@
+table {
+	font-size: 10pt;
+}
+
+td {
+	padding-left: 5px;
+}
+
+body {
+	font-size: 10pt;
+	color: #404040;
+	background: whitesmoke;
+}
+
+.divMain {
+	width: 100%;
+	margin-left: 13px;
+}
+
+.title {
+	border: 1px solid #d0d0d0;
+	background: url(/cmj/images/bg_btns.png) repeat-x;
+	background-position: 0 -132px;
+	height: 30px;
+	width: 100%;
+}
+
+.biaoti{
+	margin-left:19.5%;
+}
+
+.price_t {
+	color: #c30;
+	font-weight: bold;
+	padding-right: 10px;
+	font-family: Arial;
+	font-size: 10pt;
+}
+
+.tt {
+	background-color: #efeae5;
+	height: 25px;
+	font-family: Arial;
+	color: #878787;
+}

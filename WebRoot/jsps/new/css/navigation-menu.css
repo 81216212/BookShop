@@ -1,0 +1,494 @@
+/*------------------------------------------
+	Theme Name: Maxshop
+	Start Date :
+	End Date : 
+	Last change: 
+	Version: 1.0
+	Assigned to:
+	Primary use:
+--------------------------------------------*/
+
+/*-------------------------------------------
+	* Navigation Menu
+---------------------------------------------*/
+.header-section-1 .menu-block {
+	background-color: #323232;
+	border-bottom: none;
+}
+.ow-navigation.navbar  {
+	background-color: transparent;
+	border: none;
+	position: relative;
+}
+.ow-navigation .navbar-brand {
+	height: auto;
+}
+.header-section.navbar-fixed-top .ow-navigation .navbar-collapse {
+	margin-right: 0;
+}
+.ow-navigation a.navbar-brand {
+	color: #44a5ff;
+	font-size: 44px;
+	font-family: 'Crimson Text', serif;
+	font-weight: 700;
+	letter-spacing: 3.52px;
+	line-height: 24px;
+	padding: 38px 0;
+	text-transform: capitalize;
+}
+.ow-navigation a.navbar-brand span {
+	color: #333;
+}
+
+.menu-icon a {
+	color: #333;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 10px 18px 10px 0;
+}
+.menu-icon a i {
+	font-size: 16px;
+}
+.ow-navigation.navbar-default .navbar-nav li  a {
+	font-size: 13px;
+	color: #44a5ff;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.26px;
+}
+.ow-navigation.navbar-default .navbar-nav > li > a {
+	position: relative;
+}
+.ow-navigation .nav.navbar-nav > li >.dropdown-menu > li > a {
+	color: #fff;
+}
+.ow-navigation .navbar-nav > li > a:::after, 
+.ow-navigation .navbar-nav > li > a:focus::after, 
+.ow-navigation .navbar-nav > li.active > a::after, 
+.ow-navigation .navbar-nav > li.active > a:focus::after, 
+.ow-navigation .navbar-nav > li.active > a:::after,
+.ow-navigation .nav.navbar-nav li > a:::after {
+	position: absolute;
+	bottom: 30px;
+	left: 0;
+	height: 2px;
+	width: 18px;
+	right: 0;
+	margin: 0 auto;
+	background-color: #44a5ff;
+	content: "";
+}
+.header-section-1 .ow-navigation .navbar-nav > li > a:::after, 
+.header-section-1 .ow-navigation .navbar-nav > li > a:focus::after, 
+.header-section-1 .ow-navigation .navbar-nav > li.active > a::after, 
+.header-section-1 .ow-navigation .navbar-nav > li.active > a:focus::after, 
+.header-section-1 .ow-navigation .navbar-nav > li.active > a:::after,
+.header-section-1 .ow-navigation .nav.navbar-nav li > a:::after {
+	bottom: 15px;
+}
+.ow-navigation.navbar-default .navbar-nav > .active > a, 
+.ow-navigation.navbar-default .navbar-nav > .active > a:focus, 
+.ow-navigation.navbar-default .navbar-nav > .active > a:,
+.ow-navigation .nav.navbar-nav li: > a,
+.ow-navigation .nav.navbar-nav li:focus > a,
+.ow-navigation .nav.navbar-nav li a:,
+.ow-navigation .nav.navbar-nav li a:focus{
+	background-color: transparent;
+	color: #44a5ff;
+}
+
+/* - Navigation Menu > 991 RES. */
+@media (min-width: 992px) {
+	.header-section-1 .ow-navigation a.navbar-brand {
+		display: none;
+	}
+	.ow-navigation .navbar-header {
+		margin-top: 0;
+	}
+	.ow-navigation .navbar-right {
+		margin-right: 0;
+	}
+	.ow-navigation .ddl-switch {
+		display: none !important;
+	}
+	.ow-navigation.navbar-default .navbar-nav {
+		padding-right: 0;
+	}
+	.header-section-1 .ow-navigation .nav.navbar-nav {
+		float: none;
+		text-align: center;
+	}
+	.header-section-1 .ow-navigation .navbar-nav > li {
+		display: inline-block;
+		float: none;
+	}
+	.ow-navigation.navbar-default .navbar-nav > li {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.ow-navigation.navbar-default .navbar-nav > li:first-child {
+		margin-left: 0;
+	}
+	
+	/* Dropdown */
+	.ow-navigation .navbar-collapse > ul > li > .dropdown-menu {
+		top: 100%;
+		left: 0;
+	}
+	.ow-navigation ul li > .dropdown-menu {
+		background-color: #44a5ff;
+		border: none;
+		left: 100%;
+		border-radius: 0;
+		margin-top: 0;
+		transition: all 0.4s ease-in-out 0s;
+		box-shadow: none;
+		opacity: 0;
+		visibility: hidden;
+		top: 0;
+		display: block;
+		padding: 5px 0px;
+		min-width: 150px;
+		margin-top: 30px;
+	}
+	.header-section .navbar-fixed-top.menu-block {
+		background-color: #fff;
+	}
+	.navbar-fixed-top.header-section .ow-navigation ul li > .dropdown-menu { 
+		box-shadow: none;
+	}
+	.ow-navigation .navbar-nav li > .dropdown-menu > li {
+		padding: 0px 20px;
+	}
+	.ow-navigation .navbar-nav > li .dropdown-menu > li > a {
+		padding: 10px 0;
+	}
+	.ow-navigation .navbar-nav > li > .dropdown-menu > li > a:focus,
+	.ow-navigation .navbar-nav > li > .dropdown-menu > li > a: {
+		color: #333;
+	}
+	.ow-navigation .nav.navbar-nav > li >.dropdown-menu > li > a:::after {
+		display: none;
+	}
+	.ow-navigation .navbar-nav li > .dropdown-menu > li:last-child a {
+		border-bottom: none;
+	}	
+	.ow-navigation .nav.navbar-nav li.dropdown: > .dropdown-menu {
+		margin-top: 0;
+		opacity: 1;
+		visibility: visible;
+	}
+	.ow-navigation ul > li > .dropdown-menu {
+		left: 0; 
+	}
+	.ow-navigation .navbar-collapse > ul > li:last-child > .dropdown-menu,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) > .dropdown-menu {
+		right: 0; 
+	}
+	.ow-navigation ul > li > .dropdown-menu,
+	.ow-navigation ul > li .dropdown-menu ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul ul {
+		right: auto;
+	}
+	.ow-navigation ul > li .dropdown-menu ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul ul {
+		left: 100%;
+	}	
+	.ow-navigation ul > li .dropdown-menu ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul {
+		right: 100%;
+	}	
+	.ow-navigation ul > li .dropdown-menu ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul,
+	.ow-navigation ul > li .dropdown-menu ul ul ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child > .dropdown-menu,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:last-child .dropdown-menu ul ul ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) > .dropdown-menu,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul,
+	.ow-navigation .navbar-collapse > ul > li:nth-last-child(2) .dropdown-menu ul ul ul ul ul ul ul ul ul {
+		left: auto;
+	}
+}
+
+
+/* - min-width: 992 to max-width: 1200 */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.ow-navigation a.navbar-brand {
+		font-size: 40px;
+	}
+	.ow-navigation.navbar-default .navbar-nav > li {
+		margin-right: 6px;
+		margin-left: 6px;
+	}
+	.header-section-1 .ow-navigation.navbar-default .navbar-nav > li {
+		margin-right: 12px;
+		margin-left: 12px;
+	}
+	.menu-icon a {
+		padding: 10px 12px 10px 0;
+	}
+}
+
+/* - Navigation Menu Switch < 991 RES */
+@media (max-width: 991px) {
+	.navbar-header { 
+		float: none; 
+	}
+	.header-section-1 .ow-navigation a.navbar-brand span {
+		color: #fff;
+	}
+	.ow-navigation .navbar-collapse {
+		margin-right: 0;
+	}
+	.navbar-toggle { 
+		display: block; 
+		border: 1px solid #fff; 
+	}
+	.navbar-toggle .icon-bar { 
+		background-color: #fff; 
+	}
+	.navbar-nav.navbar-right:last-child { 
+		margin: 0; 
+	}
+	.navbar-collapse.in { 
+		overflow-y: auto !important; 
+	}
+	.navbar-collapse { 
+		border-top: medium none;
+		box-shadow: none;
+		overflow: auto !important;
+		padding-bottom: 10px;
+		width: 100%;
+		margin: 0;
+	}
+	.navbar-collapse.collapse { 
+		display: none !important; 
+	}
+	.collapse.in{ 
+		display:block !important; 
+	}
+	.navbar-nav { 
+		width: 100%; 
+		margin: 0; 
+	}
+	.navbar-nav > li { 
+		min-height: 0; 
+		float: none; 
+	}
+	
+	/* since 3.1.0 */
+	.ow-navigation .navbar-collapse.collapse.in {  
+		display: block!important; 
+		width: 100%; 
+	}
+	.ow-navigation .collapsing { 
+		overflow: hidden!important; 
+	}
+	.ow-navigation .dropdown-menu {
+		background-color: transparent;
+		border: 0 none;
+		margin-top: 0;
+		padding-left: 10px;
+		padding-top: 0;
+		position: relative;
+		width: 100%;
+		box-shadow: none;
+	}
+	.ow-navigation .dropdown-menu li {
+		display: inline-block;
+		width: 100%;
+	}	
+	/* Switch */
+	.ow-navigation .ddl-switch {
+		background-color: #44a5ff;
+		cursor: pointer;
+		font-size: 18px;
+		padding: 1.5px 5px;
+		position: absolute;
+		right: 0;
+		z-index: 100;
+		top: 6px;
+		color: #fff;
+	}
+	.ow-navigation .navbar-collapse {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.ow-navigation .nav {
+		margin-top: 15px;
+	}
+	.ow-navigation .ddl-active > .ddl-switch:before {
+		content: "\f106";
+	}
+	.ow-navigation .navbar-toggle {
+		background-color: #44a5ff;
+		border-color: #44a5ff;
+		border-radius: 0;
+		display: block;
+		margin: 35px 0 22px;
+	}
+	.navbar-default .navbar-toggle:focus, 
+	.navbar-default .navbar-toggle:,
+	.navbar-fixed-top .ow-navigation .navbar-toggle .icon-bar,
+	.ow-navigation .navbar-toggle .icon-bar,
+	.navbar-fixed-top .ow-navigation .navbar-toggle:focus,
+	.navbar-fixed-top .ow-navigation .navbar-toggle:,
+	.ow-navigation .navbar-default .navbar-toggle:focus, 
+	.ow-navigation .navbar-default .navbar-toggle:,
+	.ow-navigation .navbar-toggle: {
+		background-color: #ffffff;
+	}
+	.navbar-default .navbar-toggle:focus .icon-bar, 
+	.navbar-default .navbar-toggle: .icon-bar,
+	.navbar-fixed-top .ow-navigation .navbar-toggle:focus .icon-bar,
+	.navbar-fixed-top .ow-navigation .navbar-toggle: .icon-bar,
+	.ow-navigation .navbar-toggle: .icon-bar {
+		background-color: #44a5ff;
+	}
+	.ow-navigation.navbar-default .navbar-nav > li {
+		position: relative;
+		display: inline-block;
+		width: 100%;
+	}
+	.ow-navigation .dropdown ul li a {
+		color: #fff;
+	}
+	.header-section .navbar-fixed-top.menu-block {
+		background-color: #fff;
+	}
+	.header-section-1 .navbar-fixed-top.menu-block {
+		background-color: #232323;
+	}
+	.ow-navigation .menu-icon {
+		padding: 0;
+	}
+	.menu-icon {
+		padding: 0;
+		right: 60px;
+		top: 40px;
+		position: absolute;
+	}
+	.header-section-1 .menu-icon {
+		padding: 0;
+		right: 0;
+		top: 0;
+		position: relative;
+	}
+	.ow-navigation .menu-icon .search {
+		float: right;
+	}
+	.ow-navigation .menu-icon a {
+		padding: 0;
+		padding-left: 10px;
+	}
+	.ow-navigation.navbar-default .navbar-nav li.dropdown .dropdown-menu li a {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.ow-navigation .navbar-nav > li.active > a::after,
+	.ow-navigation .nav.navbar-nav li > a:::after {
+		display: none;
+	}
+	.ow-navigation .nav.navbar-nav li: > a {
+		color: #333;
+	}
+	.ow-navigation .nav.navbar-nav > li > .dropdown-menu > li > a {
+		color: #44a5ff;
+	}
+	.ow-navigation .nav.navbar-nav > li > .dropdown-menu > li > a: {
+		color: #333;
+	}
+	.header-section-1 .ow-navigation .nav.navbar-nav li: > a {
+		color: #fff;
+	}
+	.header-section-1 .ow-navigation .nav.navbar-nav > li > .dropdown-menu > li > a: {
+		color: #fff;
+	}
+}
+
+/* - max-width: 767 */
+@media (max-width: 767px) {
+	.ow-navigation .navbar-toggle {
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+}
+
+/* - max-width: 639 */
+@media (max-width: 639px) {
+	.ow-navigation a.navbar-brand {
+		font-size: 30px;
+		letter-spacing: 1px;
+	}
+	.header-section-1 .ow-navigation a.navbar-brand {
+		font-size: 35px;
+	}
+}
+
+/* - max-width: 479 */
+@media (max-width: 479px) {
+	.menu-icon a {
+		padding: 0 0 0 8px;
+	}
+}
+
+/* - max-width: 360 */
+@media (max-width: 360px) {
+	.ow-navigation a.navbar-brand {
+		font-size: 24px;
+	}
+	.menu-icon {
+		right: 54px;
+	}
+	.ow-navigation .menu-icon a i {
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: url("/cmj/images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+}
+a{
+    text-decoration: none;	
+}
+
+a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.container {
+    width: 500px;
+    position: absolute;
+    top: 43%;
+    left:50%;
+    margin-left: -292px;
+    margin-top: -292px;
+    padding: 40px;
+    background-color: rgba(234, 234, 234, 0.65);
+    border: 2px ridge rgba(238, 238, 238, 0.13);
+    border-radius: 50px;
+    transition:0.5s all;
+}
+
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 40px;
+}
+
+.inputClass{
+    width: 420px;
+    padding: 10px;
+    background-color:transparent;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid black;
+    color: black;
+    transition:0.5s all;
+    margin-bottom: 30px;
+}
+
+input:focus{
+	outline:none;
+	background-color: transparent;
+}
+
+.errorClass{
+	width: 200px;
+	height: 20px;
+    color: red;
+    float: right;
+    margin-top: -60px;
+    margin-right: 30px;
+	font-size: medium;
+}
+
+.errorClass2{
+	width: 200px;
+	height: 20px;
+    color: red;
+    float: left;
+    margin-left: 15px;
+	font-size: medium;
+}
+
+#imgVerifyCode{
+	float: left;
+    margin-left: 4px;
+    margin-top: -15px;
+}
+
+.login{
+	display: inline-block;
+	width: 90%;
+	margin-top: 20px;
+    color:black;
+    font-size: medium;
+}
+
+#submitBtn{
+    width: 60%;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: #44a5ff;
+    color: #CCC;
+    border: 1px solid rgba(238, 238, 238, 0.41);
+    border-width: thin;
+    cursor: pointer;
+    outline: none;
+    transition:0.5s all;
+    text-decoration: none;
+}
+
+#verifyCodeError{
+	margin-right: 35px;
+	margin-top: 1px;
+}
+
+#verifyCode{
+	width: 150px;
+	height: 18px;
+	margin-left: 40px;
+	float: left;
+}
+
+

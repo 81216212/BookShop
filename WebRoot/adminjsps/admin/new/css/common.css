@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+a{
+	text-decoration:none;
+	color:black;
+}
+body{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+a:hover{
+	text-decoration:none;
+}
+.button{
+	display: inline-block;
+    width: 45px;
+    height: 22px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 13px;
+    background: #dd514c;
+    line-height: 22px;
+}
+.button1{
+	float:left;
+	display: inline-block;
+	border: 1px solid #e6e6e6;
+	color: #0e90d2;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    padding: .1em 1em;
+    background-color: #fff;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.button11{
+	float:left;
+	display: inline-block;
+	border: 1px solid #e6e6e6;
+	color: #0e90d2;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    padding: .1em 1em;
+    background-color: #fff;
+}
+.button2{
+	float:left;
+	display: inline-block;
+	border: 1px solid #e6e6e6;
+	color: #fc7424;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: .1em 1em;
+    background-color: #fff;
+}
+.button3{
+	float:left;
+	display: inline-block;
+	border: 1px solid #e6e6e6;
+	color:red;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    padding: .1em 1em;
+    background-color: #fff;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.fujia1{
+	height: 35px;
+	line-height: 35px;
+	font-size: 15px;
+	padding: 0px 8px;
+	font-weight: 500;
+}

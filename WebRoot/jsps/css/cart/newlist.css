@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+.jiesuan:HOVER {
+	poorfish: expression(this.onclick=function jiesuan() {
+		return true
+	}
+	);
+}
+.kill {
+	cursor:default;
+}
